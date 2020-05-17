@@ -13,7 +13,7 @@ export const requestLogin = (data, props) => {
         type: getAuthAction,
         payload: postLogin(data)
           .then(res => {
-              consple.log(res);
+              console.log(res);
                 if (res.status === 200) {
                     alert('You have successfully logged in')
                     try {
@@ -41,7 +41,7 @@ export const requestRegister = (data, props) => {
         type: getAuthRegister,
         payload: postRegister(data)
           .then(result => {
-             console.log(result)
+             console.log(result);
             if (result.status === 200) {
                 alert("Register Success")
                 try {
