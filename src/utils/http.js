@@ -1,8 +1,8 @@
 import Axios from 'axios'
 
-const URL_STRING = process.env.REACT_APP_URL_STRING
+const URL_STRING = https://ninja-library-apps.netlify.app/books/
 //const URL_BASE = process.env.REACT_APP_URL_BASE
-const URL_API = process.env.REACT_APP_URL_API
+const URL_API = https://ninja-library-apps.netlify.app/book
 const API_TOKEN = localStorage.getItem('token')
 
 
